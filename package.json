@@ -1,0 +1,21 @@
+{
+  "name": "base16-theme-contrast-validator",
+  "version": "1.0.0",
+  "description": "base16 theme color contrast validator",
+  "scripts": {
+    "start": "node ./src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "base16",
+    "color-contrast"
+  ],
+  "author": "Mikhail Loginov",
+  "license": "ISC",
+  "dependencies": {
+    "get-contrast": "^3.0.0",
+    "glob": "^7.2.0",
+    "js-yaml": "^4.1.0",
+    "yargs": "^17.5.1"
+  }
+}
